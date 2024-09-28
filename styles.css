@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f7f8fc;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #4A90E2;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.nav {
+    margin-top: 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffd700;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 0 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #e2f0fb 0%, #fff7e6 100%);
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    color: #666;
+}
+
+.button {
+    padding: 15px 30px;
+    background-color: #4A90E2;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #357ABD;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin: 0;
+}
+/* Logo Styling */
+.logo {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the logo horizontally */
+    padding-bottom: 10px; /* Optional: adds space below the logo */
+}
